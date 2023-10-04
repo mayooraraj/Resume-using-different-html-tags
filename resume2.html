@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:rgb(248, 246, 246)">
+    <div ><!--Picture tag used-->
+          <picture style="margin-left: 630px;">
+            <source media="(min-width:650px)" srcset="mayoora.jpg">
+            <source media="(min-width:465px)" srcset="butterfly.jpg">
+            <img src="tiger.jpg" alt="Flowers" style="width:auto;">
+          </picture>
+       
+        <div style="margin-left: 460px;">
+            <h2 style="margin-left: 130px;"><u>PERSONAL DETAILS</u></h2><br>
+            <form > <!--Personal details of candidate-->
+                <label>First Name : </label>
+                <input type="text" placeholder="Enter Your First name here " style="height:20px;">
+                <label>Last Name : </label>
+                <input type="text" placeholder="Enter Your Last name here" style=" height:20px;"><br><br>
+                <label >Address :</label>
+                <input type="text" placeholder="Street Address " style="margin-left: 20px; width:430px;height:20px;"><br><br>
+                <input type="text" placeholder="Street Address Line2 " style="margin-left: 84px;width:430px; height:20px;"><br><br>
+                <input type="text" placeholder="City" style="margin-left: 84px; width: 200px; height:20px;">
+                <input type="text" placeholder="Postal / Zip Code" style="margin-left: 20px; width: 200px;height:20px;"><br><br>
+                <label >Select</label>
+                <label style="margin-left: 40px;width: 200px;color: rgb(77, 74, 74);">State</label>
+                <select name="state" id="state">
+                    <option value="Punjab">Punjab</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Rajastan">Rajastan</option>
+                    <option value="Kerala">Kerala</option>
+                </select>
+                <label style="margin-left: 50px;color: rgb(77, 74, 74);">Country</label>
+                <select name="Country" id="Country">
+                    <option value="Hungary">Hungary</option>
+                    <option value="Italy">Italy</option>
+                    <option value="India">India</option>
+                    <option value="Haiti">Haiti</option>
+                </select><br><br>
+                <label >Phone No</label>
+                <input type="text" placeholder="Enter phone number" style="margin-left: 15px;height:20px;">
+            </form>
+            </div>
+            <hr>
+            <div>
+            <h2><u>CAREER OBJECTIVE</u></h2>
+            <p style="font-size: 20px;color: rgb(58, 53, 53);">B.Tech Computer Science graduate with a passion for software
+                development, has a strong foundation in programming languages, data
+                structures, and algorithms, committed to continuous learning, staying
+                abreast of the latest industry trends and technologies and to meet the
+                demands of the organization and carry out every responsibility of the
+                position with utmost commitment and to continuously upgrade my
+                knowledge and skills.</p>
+            
+        </div>
+            <h2><u>TECHNICAL SKILLS</u></h2>
+            <form> <!--Use of HTML Form-->
+                <h4>Rate your technical skills</h4>
+                <label>Do You Like Programming ?</label>
+                <input type="radio" name="yes_no" checked>Yes</input>
+                <input type="radio" name="yes_no">No</input>
+                <br><br>
+                <label for="question">Programming Language :</label>
+                <input type="checkbox"  name="language1" value="C">
+                <label for="language1"> C</label>
+                <input type="checkbox"  name="language2" value="CPP">
+                <label for="language2"> CPP</label>
+                <input type="checkbox"  name="language3" value="Java">
+                <label for="language3"> Java</label>
+                <input type="checkbox"  name="language4" value="Python">
+                <label for="language4"> Python</label>
+                <br><br>
+                <label for="question">Operating System :</label>
+                <input type="checkbox"  name="os" value="Linux">
+                <label for="language1"> Linux</label>
+                <input type="checkbox"  name="os2" value="windows">
+                <label for="language1"> Windows</label>
+                <br><br>
+                <label for="question">Web Technologies :</label>
+                <input type="checkbox"  name="os3" value="Html">
+                <label for="language1"> HTML</label>
+                <input type="checkbox"  name="os4" value="CSS">
+                <label for="language1"> CSS</label>
+                <input type="checkbox"  name="os5" value="js">
+                <label for="language1"> Javascript</label>
+                <br><br>
+            </form>
+        </div>
+            <h2><u>PROJECT DETAILS</u></h2>
+            <ul> <!--Unordered list-->
+                <li>November 2018-February 2019</li>
+                <h4>LIBRARY MANAGEMENT SYSTEM</h4>
+                <li>April 2022-July 2022</li>
+                <h4>AN AID FOR GREEN WORLD (SMART BIN)</h4>
+                <li>November 2022-May 2023</li>
+                <h4>ALL IN ONE FOOD SOLUTION</h4>
+            </ul>
+            <h2><u>PROJECT DEMO</u></h2> <!--iframe used here-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9yrP1CZN3Ds?si=PenKRxlzcBfhsqEN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ 
+              <h2><u>DECLARATION</u></h2> 
+              <form action="submited.html">
+                <textarea name="declaration" id="declaration" cols="30" rows="10">I here by declare that the above mentioned information is true to the best of my knowledge and i bear the responsibility for the above mentioned.</textarea><br><br>
+                <h5 style="margin-left: 900px;">Place : Vatakara</h5>
+                <h5 style="margin-left: 900px;">Date : 4-10-2023</h5>
+                <input type="submit" value="Submit" style="color: aliceblue; background-color: blue; margin-left: 900px;">
+              </form>
+    </div>
+</body>
+</html>
